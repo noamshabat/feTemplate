@@ -23,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
 	"lint": "eslint ./src/",
-	"gcs-deploy": "gcloud storage cp --recursive build/* gs://fe-template"
+	"gcs-deploy": "gcloud storage cp --recursive build/* gs://fe-template",
+	"gcs-set-project": "gcloud config set project noam-377008"
   },
   "eslintConfig": {
     "extends": [
